@@ -58,7 +58,7 @@ function getPrompts() {
         choiceArr = choiceArr.concat(upperCaseArr);
     }
     if (confirm("Would you like numbers in your new password?")) {
-        choiceArr = choiceArr.concat("numberArr");
+        choiceArr = choiceArr.concat(numberArr);
 
     }
     return true;
