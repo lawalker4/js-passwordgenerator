@@ -1,6 +1,8 @@
 var characterLength = 8;
 var choiceArr = [];
 
+// Generate the charators in the password//
+
 var specialCharArr = ['!', '@', '#', '$', '%', "^", '&', '*', '~'];
 var lowerCaseArr = ['a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l'];
 var upperCaseArr = ['Z', 'X', 'C', 'V', 'B', 'N', 'N', 'M', 'L']
@@ -36,6 +38,8 @@ function generatePassword() {
     return password
 
 }
+
+//Generating the prompts for the code to run
 
 function getPrompts() {
 
